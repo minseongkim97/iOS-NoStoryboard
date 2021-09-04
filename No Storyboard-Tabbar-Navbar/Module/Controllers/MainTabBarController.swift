@@ -22,13 +22,12 @@ class MainTabBarController: UITabBarController {
         let giftVC = GiftViewController()
         let storeVC = StoreViewController()
         
-        let homeNC = makeNavigationController(rootViewController: homeVC)
         let scanNC = UINavigationController(rootViewController: scanVC)
         let orderNC = UINavigationController(rootViewController: orderVC)
         let giftNC = UINavigationController(rootViewController: giftVC)
         let storeNC = UINavigationController(rootViewController: storeVC)
         
-        self.viewControllers = [homeNC, scanNC, orderNC, giftNC, storeNC]
+        self.viewControllers = [homeVC, scanNC, orderNC, giftNC, storeNC]
         
         homeVC.setTabBarImage(imageName: "house.fill", title: "Home")
         scanVC.setTabBarImage(imageName: "qrcode", title: "Scan")
