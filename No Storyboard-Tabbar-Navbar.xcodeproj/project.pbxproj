@@ -21,6 +21,8 @@
 		242DB1BD26E08D41006C48A6 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1BC26E08D41006C48A6 /* UIFont.swift */; };
 		242DB1BF26E08F7D006C48A6 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1BE26E08F7D006C48A6 /* Device.swift */; };
 		242DB1C226E09071006C48A6 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1C126E09071006C48A6 /* HomeHeaderView.swift */; };
+		242DB1C426E3B49D006C48A6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1C326E3B49D006C48A6 /* UIColor.swift */; };
+		242DB1C626E3BF66006C48A6 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1C526E3BF66006C48A6 /* TileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		242DB1BC26E08D41006C48A6 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		242DB1BE26E08F7D006C48A6 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		242DB1C126E09071006C48A6 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		242DB1C326E3B49D006C48A6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		242DB1C526E3BF66006C48A6 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				242DB1C126E09071006C48A6 /* HomeHeaderView.swift */,
+				242DB1C526E3BF66006C48A6 /* TileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				242DB1BC26E08D41006C48A6 /* UIFont.swift */,
+				242DB1C326E3B49D006C48A6 /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				242DB1AD26DFD094006C48A6 /* ScanViewController.swift in Sources */,
 				242DB19726DDB7A4006C48A6 /* AppDelegate.swift in Sources */,
 				242DB1B526DFD4EF006C48A6 /* StoreViewController.swift in Sources */,
+				242DB1C626E3BF66006C48A6 /* TileView.swift in Sources */,
 				242DB19926DDB7A4006C48A6 /* SceneDelegate.swift in Sources */,
+				242DB1C426E3B49D006C48A6 /* UIColor.swift in Sources */,
 				242DB1B126DFD0A4006C48A6 /* GiftViewController.swift in Sources */,
 				242DB1BD26E08D41006C48A6 /* UIFont.swift in Sources */,
 				242DB1AF26DFD09C006C48A6 /* OrderViewController.swift in Sources */,
