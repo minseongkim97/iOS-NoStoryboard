@@ -18,11 +18,15 @@ class HomeViewController: BaseViewController {
     
     let cellId = "cellId"
     let tiles = [
-        TileView("Star balance"),
-        TileView("Bonus stars"),
-        TileView("Try these"),
-        TileView("Welcome back"),
-        TileView("Uplifting")
+        TileViewController(title: "Breakfast made meatless",
+                           subtitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetarian and protein-packed.",
+                           imageName: "meatless"),
+        TileViewController(title: "Uplifting our communities",
+                           subtitle: "Thanks to our partners' nominations, The Starbucks Foundation is donating $145K to more than 50 local charities.",
+                           imageName: "communities"),
+        TileViewController(title: "Spend at least $15 for 50 Bonus Stars",
+                           subtitle: "Collect 50 Bonus Stars when you spend at least $15 pre-tax.",
+                           imageName: "bonus")
     ]
     
     override func viewDidLoad() {
@@ -46,7 +50,6 @@ class HomeViewController: BaseViewController {
 extension HomeViewController {
     func style() {
         headerView.translatesAutoresizingMaskIntoConstraints = false
-        headerView.backgroundColor = .systemPink
 //        tableView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -129,7 +132,9 @@ extension HomeViewController: UIScrollViewDelegate {
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let y = scrollView.contentOffset.y
-
+        
+        print(y)
+        
         let swipingDown = y <= 0
         let shouldSnap = y > 30
         let labelHeight = headerView.greetingLabel.frame.height + 16 // label + spacer
