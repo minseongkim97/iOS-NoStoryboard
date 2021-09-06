@@ -28,6 +28,7 @@
 		242DB1CC26E4AF7B006C48A6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1CB26E4AF7B006C48A6 /* UIView.swift */; };
 		242DB1CE26E64C6A006C48A6 /* RewardTileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1CD26E64C6A006C48A6 /* RewardTileViewController.swift */; };
 		242DB1D026E64C73006C48A6 /* RewardTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1CF26E64C73006C48A6 /* RewardTileView.swift */; };
+		242DB1D226E6505C006C48A6 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DB1D126E6505C006C48A6 /* BalanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		242DB1CB26E4AF7B006C48A6 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		242DB1CD26E64C6A006C48A6 /* RewardTileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileViewController.swift; sourceTree = "<group>"; };
 		242DB1CF26E64C73006C48A6 /* RewardTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTileView.swift; sourceTree = "<group>"; };
+		242DB1D126E6505C006C48A6 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				242DB1C126E09071006C48A6 /* HomeHeaderView.swift */,
 				242DB1C926E4AC07006C48A6 /* TileView.swift */,
 				242DB1CF26E64C73006C48A6 /* RewardTileView.swift */,
+				242DB1D126E6505C006C48A6 /* BalanceView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				242DB1C226E09071006C48A6 /* HomeHeaderView.swift in Sources */,
+				242DB1D226E6505C006C48A6 /* BalanceView.swift in Sources */,
 				242DB1D026E64C73006C48A6 /* RewardTileView.swift in Sources */,
 				242DB1CE26E64C6A006C48A6 /* RewardTileViewController.swift in Sources */,
 				242DB1BF26E08F7D006C48A6 /* Device.swift in Sources */,
