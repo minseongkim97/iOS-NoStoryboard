@@ -36,6 +36,7 @@ class TileView: UIView {
     
     func addShadow() {
         shadowLayer = CAShapeLayer()
+
         shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius).cgPath
         shadowLayer.fillColor = fillColor.cgColor
         shadowLayer.shadowOffset = CGSize(width: 0.0, height: 1.0)
@@ -51,7 +52,7 @@ extension TileView {
     
     func style() {
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleToFill
         imageView.clipsToBounds = true
         
         titleLabel.translatesAutoresizingMaskIntoConstraints = false

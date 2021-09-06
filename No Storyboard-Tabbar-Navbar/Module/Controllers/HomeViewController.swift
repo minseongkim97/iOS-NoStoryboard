@@ -18,6 +18,7 @@ class HomeViewController: BaseViewController {
     
     let cellId = "cellId"
     let tiles = [
+        RewardTileViewController(),
         TileViewController(title: "Breakfast made meatless",
                            subtitle: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegetarian and protein-packed.",
                            imageName: "meatless"),
